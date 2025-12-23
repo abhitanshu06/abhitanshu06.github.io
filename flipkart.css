@@ -1,8 +1,10 @@
 .page{
-    max-width: 1495px;
-    margin: 0 auto;         
-    box-sizing: border-box;
-}body{
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+body{
     background-color:#F1F2F4;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,11 +14,11 @@
     background-color: white;
     height: 68px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     position: fixed;
     top: 0;
+    width: 100%;
+    left: 0;
     z-index: 1000;
 }
 .logo{
@@ -233,14 +235,13 @@
 }
 .categories{
     background-color: white;
-    margin: 8px 16px;
+    margin: 8px 0px;
     height: 125px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
     padding: 0 24px;
-    
 }
 .categories img{
     width: 65px;
@@ -262,12 +263,11 @@
 }
 .banner{
     background: white;
-    margin: 17px auto;
+    margin: 17px 0px;
     position: relative;
     height: 272px;
     overflow: hidden;
-    width: calc(100% - 32px);
-    max-width: 1480px;
+    max-width: 100%;
 }
 
 .photobanner{
@@ -390,6 +390,7 @@
 .deals{
     background-color: white;
     margin: 0px 16px;
+    margin-left: 0px;
     width: 1210px;
     padding: 1px 16px;
     height: 310px;
@@ -397,8 +398,20 @@
 h2{
     font-size: 22px;
 }
+@media (max-width: 1244px){
+    .deal .block:nth-child(n+5){
+        display: none;
+    }
+}
+@media (max-width: 856px){
+    .deal .block:nth-child(n+3){
+        display: none;
+    }
+}
+
 .deal{
     display: flex;  
+    overflow: hidden;
     place-content: space-between;
 }
 .block a{
@@ -418,6 +431,7 @@ h2{
 }
 .bold{
     font-weight: bold;
+    margin-top: 5px;
 }
 .block img{
      margin: 10px 16px;
@@ -430,12 +444,12 @@ h2{
     margin-top: 22px;
 }
 .side img{
-    margin-right:  16px;
     height: 310px;
     width: 220px;
 }
 .del{
     display: flex;
+    flex-wrap: nowrap;
 }
 .block img:hover{
     transform: scale(1.1);
@@ -443,23 +457,26 @@ h2{
 }
 .section{
     background-color: white;
-    margin: 16px 16px;
+    margin: 16px 0px;
     display: flex;
     justify-content: space-between;
     height: auto;
+    flex-wrap: wrap;
 }
 .section img{
     width: 483px;
     margin: 1px 5px;
     display: block;
+    column-gap: 10px;
 }
 .sec{
     background-color: white;
-    margin: 8px 16px;
+    margin: 8px 0px;
+    margin-top: 0px;
     padding: 10px 16px;
     display: flex;
     flex-direction: column;
-    display: inline-flex;
+    display: inline-block;
     width: 450px;
 }
 .sec1{
@@ -505,10 +522,79 @@ h2{
     margin-left: 5px;
 }
 .secup img:hover{
-    transform:scale(1.08);
+    transform:scale(1.03);
     transition: transform 0.1s ease;
 }
 .secdown img:hover{
-    transform:scale(1.08);
+    transform:scale(1.03);
     transition: transform 0.1s ease;
+}
+.box{
+    background-color: white;
+    margin: 8px 0px;
+    padding: 10px 16px;
+    padding-bottom: 20px;
+}
+.boxs{
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+}
+.boxes a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+}
+.boxes img{
+    margin-bottom: 16px;
+    height: 130px;
+}
+.deal{
+    flex-wrap: wrap;
+}
+.boxes img:hover{
+    transform: scale(1.04);
+    transition: transform 0.1s ease;
+}
+.box{
+    flex-wrap: wrap;
+}
+.boxs{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+}
+.boxes{
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 220px;
+}
+.boxs::-webkit-scrollbar{
+    display: none;
+  }
+.boxes7{
+    width: 0px;
+}
+.foot1{
+    padding: 80px 15px;
+    color: grey;
+}
+.foot h3{
+    color: grey;
+    font-size: 18px;
+}
+.bottom span{
+    font-size: 15px;
+}
+.bottom a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+.bottom{
+    margin-top: 15px;
 }
