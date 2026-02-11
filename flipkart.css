@@ -47,10 +47,11 @@ body{
     width: 100%;
     font-size: 1.125rem;
     outline: none;
-    border-radius: 5px4;
+    border-radius: 5px;
     font-size: 1.09375rem;
 }
-.search img,button{
+.search img,
+.search button{
     width: 2.5rem;
     height: 2.375rem;
     border: none;
@@ -335,8 +336,8 @@ body{
 
 .dot{
     position:relative;
-    height: 0.25rem; /* 4px */
-    width: 0.625rem; /* 10px */              
+    height: 0.25rem; 
+    width: 0.625rem;            
     border-radius: 999px;
     background:lightgray; 
     overflow:hidden;
@@ -440,7 +441,7 @@ h2{
 .block a{
     display: flex;
     flex-direction: column;
-    column-gap: 2.1875rem; /* 35px */
+    column-gap: 2.1875rem; 
     text-align: center;
     text-decoration: none;
     color: black;
@@ -449,12 +450,12 @@ h2{
     margin: 1.25rem 1.125rem;
 }
 .block span{
-    margin-top: 0.3125rem; /* 5px */
-    font-size: 1rem; /* 16px */
+    margin-top: 0.3125rem; 
+    font-size: 1rem; 
 }
 .bold{
     font-weight: bold;
-    margin-top: 0.3125rem; /* 5px */
+    margin-top: 0.3125rem; 
 }
 .block img{
     margin: 0.625rem 1rem;
@@ -465,11 +466,11 @@ h2{
 }
 
 .block3{
-    margin-top: 1.375rem; /* 22px */
+    margin-top: 1.375rem; 
 }
 .side img{
-    height: 19.375rem; /* 310px */
-    width: 13.75rem; /* 220px */
+    height: 19.375rem;
+    width: 13.75rem; 
 }
 
 .del{
@@ -482,7 +483,7 @@ h2{
 }
 .section{
     background-color: white;
-    margin: 1rem 0rem; /* Changed to rem */
+    margin: 1rem 0rem; 
     display: flex;
     flex-wrap: nowrap;
     gap:1rem;
@@ -494,64 +495,63 @@ h2{
 .section img{
     width: 100%;
     height: auto;
-     /* Changed to rem */
-    margin: 0.0625rem 0.3125rem; /* Changed to rem */
+    margin: 0.0625rem 0.3125rem;
     display: block;
     object-fit: cover;
     border-radius: 2px;
-    column-gap: 0.625rem; /* Changed to rem */
+    column-gap: 0.625rem; 
 }
 .sec{
     background-color: white;
-    margin: 0.5rem 0rem; /* Changed to rem */
-    margin-top: 0rem; /* Changed to rem */
-    padding: 0.625rem 1rem; /* Changed to rem */
+    margin: 0.5rem 0rem; 
+    margin-top: 0rem; 
+    padding: 0.625rem 1rem; 
     display: flex;
     flex-direction: column;
     display: inline-block;
-    width: 28.125rem; /* 450px */
+    width: 28.125rem; 
 }
 .sec1{
-    margin-right: 0.3125rem; /* 5px */
+    margin-right: 0.3125rem; 
 }
 .sec2{
-    margin: auto 0.3125rem; /* 5px */
+    margin: auto 0.3125rem; 
 }
 .sec3{
-    margin: auto 0.3125rem; /* 5px */
+    margin: auto 0.3125rem; 
 }
 .secup, .secdown{
     display: flex;
 }
 .secup a , .secdown a{
     display: grid;
-    width: 14.375rem; /* 230px */
+    width: 14.375rem; 
     text-decoration: none;
     color: black;
     border: 1px solid lightgrey;
-    border-radius: 0.1875rem; /* 3px */
-    margin: 0.3125rem; /* 5px */
+    border-radius: 0.1875rem; 
+    margin: 0.3125rem; 
     justify-items: start;
     text-align: left;
-    padding: 1.25rem 0.3125rem; /* 20px 5px */
+    padding: 1.25rem 0.3125rem; 
 }
 .secup img, .secdown img{
     justify-self: center;
-    border-radius: 0.1875rem; /* 3px */
-    margin-bottom: 1rem; /* 16px */
-    margin-left: 0.625rem; /* 10px */
-    margin-right: 0.625rem; /* 10px */
-    width: 11.25rem; /* 180px */
-    height: 11.875rem; /* 190px */
+    border-radius: 0.1875rem; 
+    margin-bottom: 1rem; 
+    margin-left: 0.625rem; 
+    margin-right: 0.625rem; 
+    width: 11.25rem; 
+    height: 11.875rem; 
 }
 .green{
     color: green;
     font-weight: bold;
-    margin-top: 0.3125rem; /* 5px */
+    margin-top: 0.3125rem; 
 }
 .secup span, .secdown span{
-    font-size: 1rem; /* 16px */
-    margin-left: 0.3125rem; /* 5px */
+    font-size: 1rem; 
+    margin-left: 0.3125rem; 
 }
 .secup img:hover{
     transform:scale(1.03);
@@ -573,17 +573,17 @@ h2{
     place-items: center;
 }
 .boxes a{
-    padding: 0rem 1.25rem; /* 20px */
+    padding: 0rem 1.25rem; 
     text-decoration: none;
     color: black;
     display: flex;
     flex-direction: column;
-    width: 8.75rem; /* 140px */
+    width: 8.75rem; 
     text-align: center;
 }
 .boxes img{
-    margin-bottom: 1rem; /* 16px */
-    height: 8.125rem; /* 130px */
+    margin-bottom: 1rem; 
+    height: 8.125rem; 
 }
 
 .deal{
@@ -604,7 +604,7 @@ h2{
 .boxes{
     flex: 0 0 auto;
     scroll-snap-align: start;
-    width: 13.75rem; /* 220px */
+    width: 13.75rem; 
 }
 .boxs::-webkit-scrollbar{
     display: none;
@@ -613,56 +613,56 @@ h2{
     width: 0px;
 }
 .foot{
-    padding: 5rem 0.9375rem; /* 80px to rem */
+    padding: 5rem 0.9375rem; 
     color: grey;
 }
 .foot h3{
     color: grey;
-    font-size: 1.125rem; /* 18px to rem */
+    font-size: 1.125rem;
 }
 .bottom span{
-    font-size: 0.9375rem; /* 15px to rem */
+    font-size: 0.9375rem; 
 }
 .bottom a{
     text-decoration: none;
     color: grey;
-    font-size: 0.8125rem; /* 13px to rem */
+    font-size: 0.8125rem; 
 }
 .bottom{
-    margin-top: 0.9375rem; /* 15px to rem */
+    margin-top: 0.9375rem; 
 }
 
 .foot2{
-    padding: 0px 0.9375rem; /* 15px to rem */
+    padding: 0px 0.9375rem; 
 }
 .foot2 h2{
-    font-size: 1rem; /* 16px to rem */
+    font-size: 1rem; 
 }
 .foot2 span{
-    font-size: 0.875rem; /* 14px to rem */
-    line-height: 1.25rem; /* 20px to rem */
+    font-size: 0.875rem; 
+    line-height: 1.25rem; 
 }
 footer{
     background-color: #212121;
     color: white;
     text-align: center;
-    margin-top: 1.875rem; /* 30px to rem */
-    font-size: 0.875rem; /* 14px to rem */
+    margin-top: 1.875rem; 
+    font-size: 0.875rem; 
 }
 
 .fooot{
     display: flex;
-    gap: 2.5rem; /* 40px */
+    gap: 2.5rem; 
     justify-content: space-evenly;
-    padding: 1.875rem 4.0625rem; /* 30px 65px */
+    padding: 1.875rem 4.0625rem; 
 }
 .square a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 0.8125rem; /* 13px */
+    font-size: 0.8125rem; 
     display: block;
-    margin: 0.25rem 0px; /* 4px */
+    margin: 0.25rem 0px; 
     text-align: left;
 }
 .square p{
@@ -673,16 +673,16 @@ footer{
     display:flex;
     flex-direction: column;
     text-align: left;
-    font-size: 0.8125rem; /* 13px */
+    font-size: 0.8125rem; 
     border-left: 1px solid #555;
-    padding-left: 1.5rem; /* 24px to rem */
+    padding-left: 1.5rem; 
 }
 .square5 span{
-    margin: 0.125rem 0; /* 2px to rem */
+    margin: 0.125rem 0; 
 }
 .social{
     display: flex;
-    gap: 0.625rem; /* 10px to rem */
+    gap: 0.625rem; 
     justify-content: left;
     align-items: center;
 }
@@ -690,10 +690,10 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 0.8125rem; /* 13px to rem */
+    font-size: 0.8125rem;
 }
 .square6 span{
-    margin: 0.125rem 0; /* 2px to rem */
+    margin: 0.125rem 0; 
 }
 .same{
     display: flex;
@@ -726,4 +726,206 @@ html{
 }
 body{
     -ms-overflow-style: none;
+}
+@media (max-width: 1240px){
+
+    .page{
+        padding: 0 0.5rem;
+    }
+
+    .head{
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+
+    .search{
+        max-width: 35rem;
+    }
+
+    .deals{
+        width: 100%;
+        margin: 0;
+    }
+
+    .side{
+        display: none;
+    }
+
+    .sec{
+        width: 48%;
+        margin: 0.5rem;
+    }
+
+    .boxs{
+        gap: 1rem;
+    }
+}
+@media (max-width: 1023px){
+    .head{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0.5rem;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .search{
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .right{
+        gap: 1rem;
+    }
+
+    .categories{
+        padding: 0 1rem;
+        gap: 1.5rem;
+        height: auto;
+    }
+
+    .banner{
+        height: 13rem;
+    }
+
+    .del{
+        flex-direction: column;
+    }
+
+    .deals{
+        width: 100%;
+        margin: 0;
+    }
+
+    .side{
+        display: none;
+    }
+
+    .section{
+        flex-wrap: wrap;
+    }
+
+    .section a{
+        flex: 1 1 48%;
+    }
+
+    .sec{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .secup,
+    .secdown{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .secup a,
+    .secdown a{
+        width: 48%;
+    }
+
+    .fooot{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .square{
+        width: 45%;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .right span{
+        display: none;
+    }
+
+    .login,
+    .cart,
+    .seller{
+        width: auto;
+    }
+
+    .categories img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .categories span{
+        font-size: 0.75rem;
+    }
+
+    .banner{
+        height: 11rem;
+    }
+
+    .deal{
+        justify-content: center;
+    }
+
+    .block{
+        width: 45%;
+    }
+
+    .section a{
+        flex: 1 1 100%;
+    }
+
+    .boxes{
+        width: 10rem;
+    }
+
+    .square{
+        width: 100%;
+    }
+
+    .last{
+        flex-wrap: wrap;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+
+    body{
+        padding-top: 6rem;
+    }
+
+    .head{
+        justify-content: center;
+    }
+
+    .right{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .search{
+        height: 2.2rem;
+    }
+
+    .search input{
+        font-size: 0.9rem;
+    }
+
+    .banner{
+        height: 9rem;
+    }
+
+    h2{
+        font-size: 1.1rem;
+    }
+
+    .secup a,
+    .secdown a{
+        width: 100%;
+    }
+
 }
